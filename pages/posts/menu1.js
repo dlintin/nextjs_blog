@@ -2,13 +2,13 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
-import Layout from '../../components/layout'
+import Lx from '../../components/layout'
 
 
 export default function FirstPost() {
   return (
-    <>
-     <Layout>
+  
+     <Lx>
       <Head>
         <title>Dian Post</title>
       </Head>
@@ -26,7 +26,7 @@ export default function FirstPost() {
           <a>Back to home</a>
         </Link>
       </h2>
-      </Layout>
-    </>
+      </Lx>
+
   )
 }
